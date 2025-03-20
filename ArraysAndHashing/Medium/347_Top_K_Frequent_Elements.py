@@ -3,8 +3,6 @@
 
 Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
 
- 
-
 Example 1:
 
 Input: nums = [1,1,1,2,2,3], k = 2
@@ -43,7 +41,7 @@ class Solution:
         top_k = dict(Counter(res).most_common(k))
         return list(top_k.keys())
 
-# Brute Force
+# Optimized Force
 # Time Complexity: O(n)
 # Overall Space Complexity: O(n)
 
