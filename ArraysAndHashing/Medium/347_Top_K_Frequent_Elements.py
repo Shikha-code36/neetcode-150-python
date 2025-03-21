@@ -54,7 +54,7 @@ class Solution:
 
 
 class Solution:
-    def topKFrequent(nums, k):
+    def topKFrequent(self, nums, k):
         count={}
         
         buck = [[] for i in range(len(nums)+1)]
