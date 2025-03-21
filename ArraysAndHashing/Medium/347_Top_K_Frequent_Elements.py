@@ -30,7 +30,7 @@ Follow up: Your algorithm's time complexity must be better than O(n log n), wher
 from collections import Counter
 
 class Solution:
-    def topKFrequent(nums, k):
+    def topKFrequent(self, nums, k):
         res={}
 
         for i in range(len(nums)):
@@ -40,6 +40,13 @@ class Solution:
                 res[nums[i]]=1
         top_k = dict(Counter(res).most_common(k))
         return list(top_k.keys())
+    
+# Same as brute force but removing redundancy
+
+class Solution:
+    def topKFrequent(self, nums, k):
+        top_k = Counter(nums).most_common(k)
+        return [num for num,_ in top_k]
 
 # Optimized Force
 # Time Complexity: O(n)
