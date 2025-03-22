@@ -20,6 +20,10 @@ s and t consist of lowercase English letters.
 # Time Complexity: O(nlogn)
 # Space Complexity: O(n)
 
+'''
+In this approach, we will sort both the strings and iterate through sorted strings. If elements are not equal, then return False, else return True.
+'''
+
 class Solution:
     def isAnagram(self, s, t):
         if len(s)!=len(t):
@@ -37,6 +41,10 @@ class Solution:
 # Time Complexity: O(nlogn)
 # Space Complexity: O(n)
 
+'''
+In this approach, we will sort both the strings and compare them. If they are equal, then return True, else return False.
+'''
+
 class Solution:
     def isAnagram(self, s, t):
         if len(s)!=len(t):
@@ -47,6 +55,11 @@ class Solution:
 # Solution 3
 # Time Complexity: O(n)
 # Space Complexity: O(1) (or O(n) for large character sets)
+
+'''
+This approach uses a dictionary to store the count of characters in both strings. 
+If the count of characters in both strings is equal, then return True, else return False.
+'''
 
 class Solution:
     def isAnagram(self, s, t):  
@@ -61,6 +74,11 @@ class Solution:
 # Solution 4
 # Time Complexity: O(n)
 # Space Complexity: O(1) (or O(n) for large character sets)
+
+'''
+This approach uses inbuilt Counter function to store the count of characters in both strings.
+If the count of characters in both strings is equal, then return True, else return False.
+'''
 
 from collections import Counter
 
