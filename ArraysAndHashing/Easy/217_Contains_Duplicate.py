@@ -20,9 +20,14 @@ Constraints:
 -109 <= nums[i] <= 109
 '''
 
-#Brute Force 1
-#Time Complexity: O(n^2)
-#Space Complexity: O(1)
+# Brute Force 1
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
+
+'''
+This approach uses two for loops to iterate through the array and check if any two numbers are equal.
+If they are, we return True, else we return False.
+'''
 
 class Solution:
     def containsDuplicate(self, nums):
@@ -32,9 +37,14 @@ class Solution:
                     return True
         return False
     
-#Brute Force 2 (Using Sorting)
-#Time Complexity: O(nlogn)
-#Space Complexity: O(1)
+# Brute Force 2 (Using Sorting)
+# Time Complexity: O(nlogn)
+# Space Complexity: O(1)
+
+'''
+Below approach sorts the array and then checks if any two consecutive numbers are equal.
+If they are, we return True, else we return False.
+'''
 
 class Solution:
     def containsDuplicate(self, nums):
@@ -47,9 +57,15 @@ class Solution:
         return False
     
 
-#Optimal Solution (Using Hashing)
-#Time Complexity: O(n)
-#Space Complexity: O(n)
+# Optimal Solution (Using Hashing)
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+'''
+In the below approach, we used a dictionary to store the count of each number in the array.
+If the number is already present in the dictionary, we return True, else we add the number to the dictionary.
+Finally, we return False.
+'''
 
 class Solution:
     def containsDuplicate(self, nums):
@@ -62,9 +78,14 @@ class Solution:
                 hash[nums[i]]=1
         return False
 
-#Optimal Solution (Using Set)
-#Time Complexity: O(n)
-#Space Complexity: O(n)
+# Optimal Solution (Using Set)
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+'''
+This approach uses a set to store the numbers in the array.
+If the length of the set is not equal to the length of the array, we return True, else we return False.
+'''
 
 class Solution:
     def containsDuplicate(self, nums):
