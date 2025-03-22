@@ -43,6 +43,12 @@ class Solution:
     
 # Same as brute force but removing redundancy
 
+'''
+In this approach, we will first count the frequency of each element in the array using the Counter function.
+Then, we will use the most_common function to get the k most frequent elements from the Counter object.
+Finally, we will return the keys of the top_k dictionary as the output.
+'''
+
 class Solution:
     def topKFrequent(self, nums, k):
         top_k = Counter(nums).most_common(k)
@@ -52,6 +58,13 @@ class Solution:
 # Time Complexity: O(n)
 # Overall Space Complexity: O(n)
 
+'''
+In this approach, we will first count the frequency of each element in the array and store it in the count dictionary.
+Then, we will create a bucket of size n+1, where n is the length of the input array.
+We will iterate through the count dictionary and append the elements to the bucket based on their frequency.
+Finally, we will iterate through the bucket from the end and append the elements to the result array until we have k elements.
+We will return the result array as the output.
+'''
 
 class Solution:
     def topKFrequent(self, nums, k):
