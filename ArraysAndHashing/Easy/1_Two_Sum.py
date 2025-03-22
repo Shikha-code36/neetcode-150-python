@@ -15,6 +15,11 @@ Output: [0,1]
 # Time Complexity: O(n^2)
 # Space Complexity: O(1)
 
+'''
+In the below approach, we used two for loops to iterate through the array and check if the sum of the two numbers is equal to the target.
+If it is, we return the indices of the two numbers.
+'''
+
 class Solution:
     def twoSum(self, nums, target):
         for i in range(len(nums)):
@@ -25,6 +30,12 @@ class Solution:
 # Solution Using Hashing
 # Time Complexity: O(N)
 # Space Complexity: O(N)
+
+'''
+This approach uses a dictionary to store the difference between the target and the current number as the key and the index as the value.
+We then iterate through the array and check if the current number is in the dictionary.
+If it is, we return the index of the current number and the value of the dictionary.
+'''
 
 class Solution:
     def twoSum(self, nums, target):
