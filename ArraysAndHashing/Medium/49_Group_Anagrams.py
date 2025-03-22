@@ -41,6 +41,12 @@ strs[i] consists of lowercase English letters.
 # Total Complexity: O(N log N + N K log K)
 # Space Complexity: O(N K)
 
+'''
+In the below approach, we sorted the strings in order to identify if they are anagrams.
+We then used a dictionary to store the sorted strings as key and the original strings as values.
+Finally we returned the values of the dictionary.
+'''
+
 class Solution:
     def groupAnagrams(self, strs):
             new_val = sorted(strs)
@@ -58,6 +64,11 @@ class Solution:
 # Optimized Solution
 # Time Complexity: O(m*n)
 # Space Complexity: O(m)
+
+'''
+In the below approach, we used a dictionary to store the count of each character in the string as key and the original string as value.
+Finally we returned the values of the dictionary.
+'''
 
 from collections import defaultdict
 
