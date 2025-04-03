@@ -18,6 +18,7 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
         - [x] [Top K Frequent Elements](ArraysAndHashing/Medium/347_Top_K_Frequent_Elements.py)
         - [x] [Product of Array Except Self](ArraysAndHashing/Medium/238_Product_of_Array_Except_Self.py)
         - [x] [Encode and Decode Strings](ArraysAndHashing/Medium/271_Encode_and_Decode_Strings.py)
+        - [x] [Valid Sudoku](ArraysAndHashing/Medium/36_Valid_Sudoku.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
