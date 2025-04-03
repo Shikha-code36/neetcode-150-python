@@ -20,6 +20,9 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
         - [x] [Encode and Decode Strings](ArraysAndHashing/Medium/271_Encode_and_Decode_Strings.py)
         - [x] [Valid Sudoku](ArraysAndHashing/Medium/36_Valid_Sudoku.py)
         - [x] [Longest Consecutive Sequence](ArraysAndHashing/Medium/128_Longest_Consecutive_Sequence.py)
+- [x] [Two Pointers](TwoPointers)
+    - [x] **Easy**
+        - [x] [Valid Palindrome](TwoPointers/125_Valid_Palindrome.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
