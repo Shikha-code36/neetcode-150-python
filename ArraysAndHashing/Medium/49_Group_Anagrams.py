@@ -38,7 +38,7 @@ strs[i] consists of lowercase English letters.
 '''
 
 # Brute Force
-# Total Complexity: O(N log N + N K log K)
+# Total Complexity: O(N log N + N K log K) ≈ O(NKlogK)
 # Space Complexity: O(N K)
 
 '''
@@ -60,6 +60,20 @@ class Solution:
                     mapp[val]=[new_val[key]]
                     
             return list(mapp.values())
+    
+#Bit clear
+
+from collections import defaultdict
+class Solution:
+    def groupAnagrams(self, strs):
+        mapp=defaultdict(list)
+
+        for s in strs:
+            sorted_key ="".join(sorted(s))
+            mapp[sorted_key].append(s) 
+        
+        return list(mapp.values())
+
     
 # Optimized Solution
 # Time Complexity: O(m*n)
