@@ -62,7 +62,9 @@ If the count of characters in both strings is equal, then return True, else retu
 '''
 
 class Solution:
-    def isAnagram(self, s, t):  
+    def isAnagram(self, s, t): 
+        if len(s)!=len(t):
+            return False 
         count_s = {}
         count_t = {}
 
