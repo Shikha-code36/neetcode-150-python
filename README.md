@@ -19,6 +19,7 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
         - [x] [Product of Array Except Self](ArraysAndHashing/Medium/238_Product_of_Array_Except_Self.py)
         - [x] [Encode and Decode Strings](ArraysAndHashing/Medium/271_Encode_and_Decode_Strings.py)
         - [x] [Valid Sudoku](ArraysAndHashing/Medium/36_Valid_Sudoku.py)
+        - [x] [Longest Consecutive Sequence](ArraysAndHashing/Medium/128_Longest_Consecutive_Sequence.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
