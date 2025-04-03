@@ -22,7 +22,7 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
         - [x] [Longest Consecutive Sequence](ArraysAndHashing/Medium/128_Longest_Consecutive_Sequence.py)
 - [x] [Two Pointers](TwoPointers)
     - [x] **Easy**
-        - [x] [Valid Palindrome](TwoPointers/125_Valid_Palindrome.py)
+        - [x] [Valid Palindrome](TwoPointers/Easy/125_Valid_Palindrome.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
