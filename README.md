@@ -27,6 +27,8 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
         - [x] [Two Sum II - Input Array Is Sorted](TwoPointers/Medium/167_Two_Sum_II_Input_Array_Is_Sorted.py)
         - [x] [3Sum](TwoPointers/Medium/15_3Sum.py)
         - [x] [Container With Most Water](TwoPointers/Medium/11_Container_With_Most_Water.py)
+    - [x] **Hard**
+        - [x] [Trapping Rain Water](TwoPointers/Hard/42_Trapping_Rain_Water.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
