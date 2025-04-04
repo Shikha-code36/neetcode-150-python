@@ -25,6 +25,7 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
         - [x] [Valid Palindrome](TwoPointers/Easy/125_Valid_Palindrome.py)
     - [x] **Medium**
         - [x] [Two Sum II - Input Array Is Sorted](TwoPointers/Medium/167_Two_Sum_II_Input_Array_Is_Sorted.py)
+        - [x] [3Sum](TwoPointers/Medium/15_3Sum.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
