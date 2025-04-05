@@ -29,6 +29,9 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
         - [x] [Container With Most Water](TwoPointers/Medium/11_Container_With_Most_Water.py)
     - [x] **Hard**
         - [x] [Trapping Rain Water](TwoPointers/Hard/42_Trapping_Rain_Water.py)
+- [x] [Stacks](Stacks)
+    - [x] **Easy**
+        - [x] [Valid Parentheses](Stacks/Easy/20_Valid_Parentheses.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
