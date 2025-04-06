@@ -32,6 +32,8 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
 - [x] [Stacks](Stacks)
     - [x] **Easy**
         - [x] [Valid Parentheses](Stacks/Easy/20_Valid_Parentheses.py)
+    - [x] **Medium**
+        - [x] [Min Stack](Stacks/Medium/155_Min_Stack.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
