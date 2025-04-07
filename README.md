@@ -34,6 +34,7 @@ This repository contains Python solutions to the popular "NeetCode 150" algorith
         - [x] [Valid Parentheses](Stacks/Easy/20_Valid_Parentheses.py)
     - [x] **Medium**
         - [x] [Min Stack](Stacks/Medium/155_Min_Stack.py)
+        - [x] [Evaluate Reverse Polish Notation](Stacks/Medium/150_Evaluate_Reverse_Polish_Notation.py)
 
 
 This repository is for reference purposes. Anyone is free to use this code under the terms of the MIT License.
